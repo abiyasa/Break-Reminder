@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<application xmlns="http://ns.adobe.com/air/application/2.6">
+	
+	<id>com.abiyasa.BreakReminder</id> 
+	<versionNumber>0.9</versionNumber> 
+	<filename>BreakReminder</filename> 
+	
+	<name>Take-A-Break Reminder</name> 
+	<description>Take A Break Reminder</description> 
+	<copyright>© Abiyasa, 2011</copyright> 
+	
+	<initialWindow> 
+		<title>Take A Break Reminder</title> 
+		<content>BreakReminder.swf</content> 
+		<systemChrome>standard</systemChrome> 
+		<transparent>false</transparent> 
+		<visible>false</visible> 
+		<minimizable>true</minimizable> 
+		<maximizable>true</maximizable> 
+		<resizable>true</resizable> 
+	</initialWindow> 
+	
+	<icon> 
+		<image48x48>icons/alarm_48.png</image48x48>
+	</icon>	
+</application>
