@@ -1,0 +1,11 @@
+This is a very simple Break Reminder which shows a small popup window every hour. The popup window will be shown on the bottom right of your screen. 
+Most of the time, the application will stay on the background as an icon on your system deck.
+
+Development:
+- Requires Flex SDK 4.5+
+- Requires AIR SDK 2.6
+
+How to make Adobe AIR:
+- make sure you have created a certificate (BreakReminder.p12) by calling bat/CreateCertificate.bat
+- Execute PackageApp.bat
+- The build air file will be in folder air
