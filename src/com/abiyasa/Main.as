@@ -80,14 +80,10 @@ package com.abiyasa
 				destroyTimer();
 			}
 			
-			
+			// get remaining minutes to the next hour
 			var currentDate:Date = new Date();
 			var remainingMinutes:Number = 60 - currentDate.minutes;
-			var remainingMinutesMilliSecs:Number = remainingMinutes * 60 * 1000;
-			if (remainingMinutesMilliSecs == 0)
-			{
-				remainingMinutesMilliSecs = 5000;
-			}
+			var remainingMinutesMilliSecs:Number = (remainingMinutes * 60 * 1000) + 5000;  // add 5s to prevent timer shows at minute 59th
 			
 			// adjust the timer tick based on current time!						
 			_timer = new Timer(remainingMinutesMilliSecs, 1);			
