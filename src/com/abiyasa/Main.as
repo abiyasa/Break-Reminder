@@ -83,7 +83,7 @@ package com.abiyasa
 			// get remaining minutes to the next hour
 			var currentDate:Date = new Date();
 			var remainingMinutes:Number = 60 - currentDate.minutes;
-			var remainingMinutesMilliSecs:Number = (remainingMinutes * 60 * 1000) + 5000;  // add 5s to prevent timer shows at minute 59th
+			var remainingMinutesMilliSecs:Number = (remainingMinutes * 60 * 1000) + 30000;  // add 30s to prevent timer shows at minute 59th
 			
 			// adjust the timer tick based on current time!						
 			_timer = new Timer(remainingMinutesMilliSecs, 1);			
